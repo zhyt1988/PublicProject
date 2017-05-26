@@ -1,0 +1,47 @@
+body,div,li,a,img{
+	padding:0;
+	margin:0;
+	list-style:none;
+	text-decoration:none;
+}
+body{
+	background:#fff;
+}
+.box{
+	width:640px;
+	height:957px;
+	position:absolute;
+	left:50%;
+	margin-left:-320px;
+	background:#f6f6f6;
+}
+.header img{
+	width:100%;
+}
+ul{
+	position:relative;
+	
+}
+ul li{
+	position:absolute;
+	left:50%;
+	margin-left:-173px;
+	width:346px;
+	height:85px;
+	background:#fec107;
+	margin-bottom:33px;
+	border-radius:40px;
+}
+ul li a{
+	display:block;
+}
+.iphoneDown{
+	margin-top:0;
+}
+.androidDown{
+	margin-top:118px;
+}
+ul li img{
+	margin-left:33px;
+	
+}	

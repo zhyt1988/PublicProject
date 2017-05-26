@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		#radius{
+			width: 200px;
+			height: 100px;
+			background:red;
+			border-radius:50px;
+			text-align:center;
+			line-height:100px;
+		}
+		#test{
+			width: 200px;
+			height: 100px;
+			background:red;
+			text-align:center;
+			line-height:100px;
+			box-shadow:10px 10px 5px #ccc;
+		}
+		#text{
+			width: 100px;height: 100px;background: #ff0;
+			box-shadow:inset 10px 10px 5px blue;
+		}
+		#imges{
+			width: 100px;height: 100px;
+			border:10px solid #ccc;
+			border-image:url(border.png) 20 20 stretch;
+		}
+		.box{
+			width: 500px;
+			height: 300px;
+			border:10px solid #ccc;
+			padding:20px;
+			background:url(border.png) no-repeat;
+			background-origin:padding-box;
+		}
+	</style>
+</head>
+<body>
+	<!-- <div id="radius">圆角{border-radius:50%}</div>
+	<div id="test">边框外阴影</div>
+	<div id="text">内阴影</div>
+	<div id="imges">边框背景</div> -->
+	<div class="box"></div>
+</body>
+</html>
